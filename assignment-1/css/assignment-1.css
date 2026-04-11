@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+:root{
+    /* first section */
+    --mc:rgb(99, 246, 197);
+    --yc:#1e1e1e;
+    --bc: #fefefe;
+    /* calculator table */
+    --table-bg: white;
+    --table-row1-bg: yellow;
+    --table-row2-bg: rgb(100, 192, 246);
+    --table-row3-bg: rgb(9, 204, 31);
+    --table-row5-bg: rgb(255, 0, 0);
+    /* form */
+    --form-bg: #e7e5e5;
+    --form-text: #333;
+    --form-border: #ccc;
+}
+
+
+.container{
+    background-color:var(--yc);
+}
+.box{
+    width: 30%;
+    height: 1.5rem;
+    background-color: var(--mc);
+    margin-left: 35%;
+}
+.numbers{
+    color: var(--bc);
+    text-align: center;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+/* calculator table */
+.container-1{
+    background-color: rgb(0, 166, 255);
+    height: 35rem;
+    padding: 5%;
+}
+.table{
+    width: 30%;
+    height: 20rem;
+    background-color: var(--table-bg);
+    margin: 5% auto;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.table-rows1{
+    background-color: var(--table-row1-bg);
+}
+.table-rows2{
+    background-color: var(--table-row2-bg);
+}
+.table-rows3{
+    background-color: var(--table-row3-bg);
+}
+.table-rows4{
+    color: var(--table-bg);
+}
+.table-rows5{
+    background-color: var(--table-row5-bg);
+}
+
+/* form */
+.container-2{
+    background-color: var(--bc);
+    width: 100%;
+
+}
+.all-content{
+    width: 50%;
+    margin: 5% auto;
+    border: #1e1e1e solid 2px;
+    height: auto;
+}
+.form{
+    background-color: var(--form-bg);
+    text-align: center;
+}
+.required{
+    color: var(--table-row5-bg);
+}
+.form-title{
+    background-color: var(--form-border);
+
+}
+.letters{
+    color: var(--form-text);
+    font-size: larger;
+    font-weight: bolder;
+    width: 25%;
+    display: inline-block;
+}
+.education-status{
+    background-color: var(--table-bg);
+    width: 20%;
+    margin: 1% auto;
+}
+.button{
+    background-color: var(--table-row5-bg);
+    color: var(--bc);
+    padding: 0.5rem 1rem;
+}
