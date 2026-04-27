@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #21232D; */
+}
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+}
+.container{ 
+    width: 85%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+:root{
+    --bg-color:#21232D;
+    --text-blue-color:#28B5E1;
+    --text-white-color:#ffffff;
+}
+.bg-color{
+    background-color: var(--bg-color);
+}
+.card-color{
+    background-color: var(--text-white-color);
+}
+.primary-text{
+    color: var(--text-white-color);
+}
+.blue-color{
+    color: var(--text-blue-color);
+}
+.black-color{
+    color: var(--bg-color);
+}
+.lh-sm{ 
+    line-height: 1; 
+}
+.lh-lg{ 
+    line-height: 1.4; 
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.d-flex{ 
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.row{ 
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.justify-between{ 
+    justify-content: space-between; 
+}
+.fit{ 
+    width: fit-content; 
+}
+.img-fluid{ 
+    max-width: 100%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.border-redius{
+    border-radius: 10px;
+}
+.col-1{ width:calc(1 / 12 * 100%)}
+.col-2{ width:calc(2 / 12 * 100%)}
+.col-3{ width:calc(3 / 12 * 100%)}
+.col-4{ width:calc(4 / 12 * 100%)}
+.col-5{ width:calc(5 / 12 * 100%)}
+.col-6{ width:calc(6 / 12 * 100%)}
+.col-7{ width:calc(7 / 12 * 100%)}
+.col-8{ width:calc(8 / 12 * 100%)}
+.col-9{ width:calc(9 / 12 * 100%)}
+.col-10{ width:calc(10 / 12 * 100%)}
+.col-11{ width:calc(11 / 12 * 100%)}
+.col-12{width: 100%;}
+
+.pt-1{
+    padding-top: 1rem;
+}
+.margin{
+    margin-top: 1%;
+}
+.p-1{
+    padding: 3%;
+}
+.btn-flip{
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: #ffffff;
+}
+.btn-flip:hover{
+    background-color: #28B5E1;
+}
+.btn-cart{
+    color: #ffffff;
+    background-color: #28B5E1;
+}
+.card{
+    height: 30rem;
+    overflow: hidden;
+}
+
+.front{
+    height: 100%;
+    top: 0;
+    transition: all 2s;
+    backface-visibility: hidden;
+    z-index:2;
+}
+.back{
+    height: 100%;
+    top:0;
+    transition: all 2s;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+.card:hover .back{
+    transform: rotateY(0deg);
+}
+.card-img-1{
+    transform: skewY(-13deg) scale(1);
+    padding: 1%;
+    
+}
+.card-img-2{
+    padding: 20%;
+}
