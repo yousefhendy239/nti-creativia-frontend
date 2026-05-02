@@ -87,3 +87,31 @@
 .item:hover .overlay {
     opacity: 1;
 }
+
+.nav-next-prev{
+    transition: 0.3s ease;
+    color: black;
+}
+.nav-next-prev:hover button span{
+    background-color: black;
+}
+.i-card {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+}
+
+.card:hover .i-card {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ancor-section6{
+    color: black;
+    background-color: #e9ecef;
+    transition: all 0.3s ease;
+}
+.ancor-section6:hover {
+    background-color: black;
+    color: white;
+}
